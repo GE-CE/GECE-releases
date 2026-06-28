@@ -1,4 +1,4 @@
-# GECE — Releases
+# GECE - Releases
 
 Repositório oficial de distribuição de versões do **GECE** (Gestão de Certificados e Estudantes), aplicação desktop para emissão e gestão de certificados académicos.
 
@@ -53,12 +53,6 @@ A aplicação verifica automaticamente a existência de novas versões ao inicia
 
 > As actualizações automáticas estão disponíveis apenas no **Windows** e **macOS**.  
 > No **Linux**, baixe e reinstale manualmente a partir desta página.
-
-## Backend
-
-O GECE requer que o servidor de API esteja em execução. Configure o endereço do servidor nas **Definições** da aplicação após a instalação.
-
-Consulte o repositório [GECE-backend](../GECE-backend) para instruções de instalação e configuração do servidor.
 
 ## Suporte
 
