@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Gestão de Certificados e Estudantes</strong><br>
+  <strong>Gestão e Validação de Documentos</strong><br>
   Distribuição oficial dos instaladores Windows
 </p>
 
@@ -17,7 +17,7 @@
 
 ---
 
-O **GECE** é uma aplicação desktop para emissão e gestão de certificados académicos. Neste repositório encontram-se os ficheiros `.exe` publicados em cada versão.
+O **GECE** é uma aplicação desktop para emissão e gestão de Documentos académicos. Neste repositório encontram-se os ficheiros `.exe` publicados em cada versão.
 
 ## Descarregar
 
