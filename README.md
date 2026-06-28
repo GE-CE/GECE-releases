@@ -1,66 +1,57 @@
-# GECE — Releases
+<p align="center">
+  <img src="assets/logo.png" alt="GECE" width="220">
+</p>
 
-Repositório oficial de distribuição de versões do **GECE** (Gestão de Certificados e Estudantes), aplicação desktop para emissão e gestão de certificados académicos.
+<p align="center">
+  <strong>Gestão de Certificados e Estudantes</strong><br>
+  Distribuição oficial dos instaladores Windows
+</p>
 
-## Download
+<p align="center">
+  <a href="https://github.com/GE-CE/GECE-releases/releases/tag/v0.0.8">
+    <img src="https://img.shields.io/badge/Versão-0.0.8-1a1a2e?style=for-the-badge" alt="Versão 0.0.8">
+  </a>
+  <img src="https://img.shields.io/badge/Plataforma-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Plataforma Windows">
+  <img src="https://img.shields.io/badge/Arquitectura-x64-555555?style=for-the-badge" alt="Arquitectura x64">
+</p>
 
-Aceda à [página de releases](../../releases) e baixe o instalador correspondente ao seu sistema operativo.
+---
 
-| Plataforma | Arquivo              | Arquitectura     |
-| ---------- | -------------------- | ---------------- |
-| Windows    | `GECE-x.x.x.exe`    | x64              |
-| macOS      | `GECE-x.x.x.dmg`    | x64 / Apple Silicon |
-| Linux      | `GECE-x.x.x.AppImage` / `.deb` | x64  |
+O **GECE** é uma aplicação desktop para emissão e gestão de certificados académicos. Neste repositório encontram-se os ficheiros `.exe` publicados em cada versão.
 
-## Requisitos do sistema
+## Descarregar
 
-| Plataforma | Versão mínima         |
-| ---------- | --------------------- |
-| Windows    | Windows 10 (64-bit)   |
-| macOS      | macOS 11 Big Sur      |
-| Linux      | Ubuntu 20.04 / equivalente |
+<p align="center">
+  <a href="https://github.com/GE-CE/GECE-releases/releases/tag/v0.0.8">
+    <img src="https://img.shields.io/badge/Descarregar-GECE--0.0.8.exe-238636?style=for-the-badge&logo=windows&logoColor=white" alt="Descarregar GECE-0.0.8.exe">
+  </a>
+  <a href="https://github.com/GE-CE/GECE-releases/releases">
+    <img src="https://img.shields.io/badge/Todas_as_releases-→-4a5568?style=for-the-badge" alt="Ver todas as releases">
+  </a>
+</p>
+
+## Requisitos
+
+- Windows 10 ou superior
+- Sistema de 64 bits
 
 ## Instalação
 
-### Windows
+1. Descarregue o instalador na [página de releases](https://github.com/GE-CE/GECE-releases/releases).
+2. Execute o ficheiro `.exe` e siga o assistente de instalação.
+3. O atalho **GECE** ficará disponível no ambiente de trabalho e no menu Iniciar.
 
-1. Baixe o ficheiro `.exe`.
-2. Execute o instalador e siga os passos do assistente.
-3. O atalho **GECE** será criado no ambiente de trabalho e no menu Iniciar.
+## Ligação ao servidor
 
-### macOS
+A aplicação necessita de um servidor de API activo. Após a instalação, abra **Definições** e indique o endereço do servidor.
 
-1. Baixe o ficheiro `.dmg`.
-2. Abra o `.dmg` e arraste o ícone do GECE para a pasta **Aplicações**.
-3. Na primeira execução, clique com o botão direito → **Abrir** (necessário por ser de um desenvolvedor não verificado pela Apple).
+Instruções de instalação do backend: [GECE-backend](https://github.com/GE-CE/GECE-backend)
 
-### Linux
+## Actualizações
 
-**AppImage**
-```bash
-chmod +x GECE-x.x.x.AppImage
-./GECE-x.x.x.AppImage
-```
+O GECE verifica novas versões ao iniciar. Se existir uma actualização, será notificado e poderá instalá-la directamente na aplicação.
 
-**Debian / Ubuntu (.deb)**
-```bash
-sudo dpkg -i GECE-x.x.x.deb
-```
+## Contacto
 
-## Actualizações automáticas
-
-A aplicação verifica automaticamente a existência de novas versões ao iniciar. Quando uma actualização estiver disponível, será notificado e poderá instalá-la directamente pela aplicação.
-
-> As actualizações automáticas estão disponíveis apenas no **Windows** e **macOS**.  
-> No **Linux**, baixe e reinstale manualmente a partir desta página.
-
-## Backend
-
-O GECE requer que o servidor de API esteja em execução. Configure o endereço do servidor nas **Definições** da aplicação após a instalação.
-
-Consulte o repositório [GECE-backend](../GECE-backend) para instruções de instalação e configuração do servidor.
-
-## Suporte
-
-- Site: [gece.ao](https://gece.ao)
-- Email: [geral@gece.ao](mailto:geral@gece.ao)
+- [gece.ao](https://gece.ao)
+- [geral@gece.ao](mailto:geral@gece.ao)
